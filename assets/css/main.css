@@ -1,7 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 
-
 html,
 body,
 div,
@@ -3247,7 +3246,7 @@ svg * {
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  background-color: rgba(245, 106, 106, 0.8);
+  /* background-color: rgba(245, 106, 106, 0.7); */
 }
 
 #sidebar .toggle:before {
@@ -3292,6 +3291,10 @@ svg * {
 
   #sidebar .toggle:before {
     font-size: 1.5rem;
+  }
+
+  #sidebar .toggle:after{
+    
   }
 
   #sidebar.inactive {
@@ -3343,7 +3346,12 @@ svg * {
   body.is-preload #sidebar {
     display: none;
   }
+
+  #sidebar .toggle:after{
+    background: rgba(245, 106, 106, 1);
+  }
 }
+
 
 @media screen and (max-width: 736px) {
   #sidebar .toggle {
@@ -3352,7 +3360,7 @@ svg * {
   }
 
   #sidebar .toggle:before {
-    color: #7f888f;
+    color: white;
     margin-left: -0.0625em;
     margin-top: -0.25em;
     font-size: 1.1rem;
@@ -3360,7 +3368,7 @@ svg * {
   }
 
   #sidebar .toggle:after {
-    background: rgba(222, 225, 226, 0.75);
+    background: rgba(245, 106, 106, 1);
     border-radius: 0.375em;
     content: "";
     height: 3.5em;
