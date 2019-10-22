@@ -1,4 +1,7 @@
-$("html, body").animate({ scrollTop: 0 }, "slow");
+
+const scroll = new SmoothScroll('a[href*="#"]',{
+	speed: 2000
+});
 
 (function ($) {
 
