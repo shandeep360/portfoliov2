@@ -91,8 +91,6 @@ video {
   scroll-behavior: smooth;
 }
 
-
-
 article,
 aside,
 details,
@@ -211,9 +209,9 @@ input,
 select,
 textarea {
   color: #7f888f;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Quicksand", "Open Sans", sans-serif;
   font-size: 13pt;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.65;
 }
 
@@ -286,10 +284,29 @@ h4,
 h5,
 h6 {
   color: #3d4449;
-  font-family: "Roboto Slab", serif;
+  font-family: "Quicksand", serif;
   font-weight: 700;
+  font-size: 35px;
+  text-align: center;
   line-height: 1.5;
   margin: 0 0 1em 0;
+}
+
+.heading-color {
+  font-family: "Quicksand", serif;
+  letter-spacing: 6px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(243, 95, 95);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
 }
 
 h1 a,
@@ -1885,7 +1902,7 @@ article.special {
 }
 
 header p {
-  font-family: "Roboto Slab", serif;
+  font-family: "Quicksand", "Roboto Slab", serif;
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 0.075em;
@@ -2589,7 +2606,7 @@ button,
   color: #f56a6a !important;
   cursor: pointer;
   display: inline-block;
-  font-family: "Roboto Slab", serif;
+  font-family: "Quicksand", "Roboto Slab", serif;
   font-size: 0.8em;
   font-weight: 700;
   height: 3.5em;
@@ -3295,8 +3312,7 @@ svg * {
     font-size: 1.5rem;
   }
 
-  #sidebar .toggle:after{
-    
+  #sidebar .toggle:after {
   }
 
   #sidebar.inactive {
@@ -3349,11 +3365,10 @@ svg * {
     display: none;
   }
 
-  #sidebar .toggle:after{
+  #sidebar .toggle:after {
     background: rgba(245, 106, 106, 1);
   }
 }
-
 
 @media screen and (max-width: 736px) {
   #sidebar .toggle {
@@ -3404,7 +3419,7 @@ svg * {
 #header .logo {
   border-bottom: 0;
   color: inherit;
-  font-family: "Roboto Slab", serif;
+  font-family: "Quicksand","Roboto Slab", serif;
   font-size: 1.125em;
 }
 
@@ -3556,7 +3571,7 @@ svg * {
   -ms-user-select: none;
   user-select: none;
   color: #3d4449;
-  font-family: "Roboto Slab", serif;
+  font-family: "Quicksand","Roboto Slab", serif;
   font-weight: 400;
   letter-spacing: 0.075em;
   list-style: none;
