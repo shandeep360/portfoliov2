@@ -1,8 +1,4 @@
 
-const scroll = new SmoothScroll('a[href*="#"]',{
-	speed: 2000
-});
-
 (function ($) {
 
 	var $window = $(window),
