@@ -83,7 +83,7 @@
 			.appendTo($head);
 
 	// Toggle.
-	$('<a href="#sidebar" class="toggle">Toggle</a>')
+	$('<a href="#sidebar" class="toggle"></a>')
 		.appendTo($sidebar)
 		.on('click', function (event) {
 
